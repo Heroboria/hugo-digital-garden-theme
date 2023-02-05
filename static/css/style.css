@@ -96,7 +96,7 @@ table td{
 .card-date {
   font-weight: lighter;
   color: var(--grey);
-  font-size: x-small;
+  font-size: small;
 }
 
 @media(max-width: 990px){
@@ -134,11 +134,20 @@ code {
   color: var(--blue);
 }
 .status {
-  font-weight: lighter;
-  color: green;
-  font-size: small;
+  font-weight: bolder;
+  color: #00d26a;
+  font-size: medium;
 }
-
+.planned {
+  font-weight: bolder;
+  color: #0084ce;
+  font-size: medium;
+}
+.inprogress {
+  font-weight: bolder;
+  color: #f92f60;
+  font-size: medium;
+}
 
 /********************* Navbar *********************/
 
@@ -227,7 +236,7 @@ code {
 
 /* ---- button-filters ---- */
 .button {
-  font-weight: 200;
+  font-weight: 400;
   display: inline-block;
   padding: 0.15em 0.5em;
   background: var(--white);
@@ -237,7 +246,7 @@ code {
   color:var(--grey);
   cursor: pointer;
   text-transform: capitalize;
-  font-size: small;
+  font-size: medium;
 }
 .button:hover {
   background-color:var(--lighter-blue);

@@ -1,8 +1,8 @@
 {{ with .Params.status }}
     {{ if eq "seeding" . }}
-    <span class="status">In Progress ✏️</span>
+    <span class="inprogress">In Progress ✏️</span>
     {{ else if eq "growing" . }}
-    <span class="status">Planned 📅</span>
+    <span class="planned">Planned 📅</span>
     {{ else if eq "evergreen" . }}
     <span class="status">Complete ✅</span>
     {{ else }}
