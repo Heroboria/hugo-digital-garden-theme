@@ -27,9 +27,9 @@
 				{{ end }}
       		</div>
 			{{ with .Site.GetPage "section" "garden" }}
-			<div class="d-flex flex-row-reverse">
+			<!-- <div class="d-flex flex-row-reverse">
         		<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">See all articles</a>
-      		</div>
+      		</div> -->
       		{{ end }}
 		</div>
     	
@@ -49,9 +49,9 @@
 				{{end}}
     		</div>
 			{{ with .Site.GetPage "section" "projects" }}
-			<div class="d-flex flex-row-reverse">
+			<!-- <div class="d-flex flex-row-reverse">
 				<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">See all projects</a>
-			</div>    
+			</div>     -->
 			{{ end }}
   		</div>
 	</div>
@@ -65,9 +65,9 @@
 					<a class="heading fs-2" href="{{ .RelPermalink }}">{{ .Title }}</a>
 				</div>
 				{{ if .Summary }} <p class="subheading">{{ .Summary }}</p> {{ end }}
-				<div class="d-flex">
+				<!-- <div class="d-flex">
 					<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">See all books</a>
-				</div>
+				</div> -->
 				{{ end }}
 			</div>
 			<div class="col me-auto">

@@ -4,17 +4,16 @@
     max = "0.84.2"
 	
 baseURL = "https://www.example.com"
-languageCode = "en-us"
 title = "My Digital Garden"
 theme = "hugo-digital-garden-theme"
 themesdir = "../../"
 copyright = "Nigalya Ponya ©"
-
+languageCode = "en-us"
 
 [params]
-  name = "Nigalya Ponya"
-  description = "Red panda living in the eastern Himalayas."
-  initials = "NP"
+  name = "Michael Kuchenko"
+  description = "Здесь собираю свои статьи и проекты."
+  initials = "MK"
   googleAnalytics = ""
 
   [[params.social]]
@@ -40,19 +39,19 @@ copyright = "Nigalya Ponya ©"
 
 [menu]
   [[menu.main]]
-    name = "Digital Garden"
+    name = "Записи"
     url = "/garden/"
     weight = 1
   [[menu.main]]
-    name = "Projects"
+    name = "Проекты"
     url = "/projects/"
     weight = 2
   [[menu.main]]
-    name = "Library"
+    name = "Библиотека"
     url = "/library/"
     weight = 3
   [[menu.main]]
-    name = "About"
+    name = "Обо мне"
     url = "/about/"
     weight = 4
 
