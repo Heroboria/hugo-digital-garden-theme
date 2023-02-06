@@ -8,7 +8,7 @@ title = "My Digital Garden"
 theme = "hugo-digital-garden-theme"
 themesdir = "../../"
 copyright = "Nigalya Ponya ©"
-languageCode = "en-us"
+languageCode = "ru"
 
 [params]
   name = "Michael Kuchenko"
