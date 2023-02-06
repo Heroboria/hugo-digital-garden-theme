@@ -15,7 +15,7 @@
 
     <!-- Multiple checkboxes option -->
     <div class="btn-toolbar mb-2 bio" role="toolbar" aria-label="Toolbar with button groups">
-        <i class="fas fa-filter"></i>
+        <i class="fas fa-filter fa-lg"></i>
         <div id="filters" class="button-group">
             {{ range $name, $taxonomy := .Site.Taxonomies.library_tags }}
             {{ $btnid := $name | printf ".js-iso-%s"}}

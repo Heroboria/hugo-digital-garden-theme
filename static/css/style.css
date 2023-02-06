@@ -7,7 +7,7 @@
     --grey: #454963;
     --white: #fff;
     --mulish: 'Mulish', sans-serif;
-    --summary: 'Frank Ruhl Libre', serif;
+    --summary: 'EB Garamond', serif;
     --headings: 'Encode Sans Semi Condensed', sans-serif;
 
     /* --mulish: 'Raleway', sans-serif;  */
@@ -158,7 +158,7 @@ code {
 .navbar-nav .nav-item .nav-link {
     color: var(--grey);
     font-family: var(--mulish);
-    font-weight: 300;
+    font-weight: 600;
     transition: color 1s;
     display: block;
     position: relative;

@@ -1,5 +1,5 @@
 ---
-title: "Library"
+title: "Библиотека"
 date: 2021-01-01
-summary: "Notes on some of the books I enjoyed reading"
+summary: "Заметки о книгах, которые мне понравились"
 ---
