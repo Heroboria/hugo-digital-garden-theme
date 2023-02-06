@@ -136,17 +136,17 @@ code {
 .status {
   font-weight: bolder;
   color: #00d26a;
-  font-size: medium;
+  font-size: small;
 }
 .planned {
   font-weight: bolder;
   color: #0084ce;
-  font-size: medium;
+  font-size: small;
 }
 .inprogress {
   font-weight: bolder;
   color: #f92f60;
-  font-size: medium;
+  font-size: small;
 }
 
 /********************* Navbar *********************/
