@@ -133,7 +133,7 @@ code {
   transform: translate(0, 5px);
   color: var(--blue);
 }
-.status {
+.complete {
   font-weight: bolder;
   color: #00d26a;
   font-size: small;
@@ -143,7 +143,7 @@ code {
   color: #0084ce;
   font-size: small;
 }
-.inprogress {
+.inwork {
   font-weight: bolder;
   color: #f92f60;
   font-size: small;

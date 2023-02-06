@@ -1,10 +1,10 @@
 {{ with .Params.status }}
-    {{ if eq "seeding" . }}
-    <span class="inprogress">In Work ✏️</span>
-    {{ else if eq "growing" . }}
+    {{ if eq "inwork" . }}
+    <span class="inwork">In Work ✏️</span>
+    {{ else if eq "planned" . }}
     <span class="planned">Planned 📅</span>
-    {{ else if eq "evergreen" . }}
-    <span class="status">Complete ✅</span>
+    {{ else if eq "complete" . }}
+    <span class="complete">Complete ✅</span>
     {{ else }}
     {{ end }}
 {{ end }}
